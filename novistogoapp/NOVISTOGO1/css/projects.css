@@ -1,0 +1,37 @@
+/* Section Projets */
+.projects {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.btn-more {
+    display: inline-block;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-more:hover {
+    color: var(--accent-color);
+}
