@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2023 Novis Togo. Tous droits réservés.</p>
+            <p>&copy; 2025 Novis Togo. Tous droits réservés.</p>
         </div>
     </div>
 </footer>

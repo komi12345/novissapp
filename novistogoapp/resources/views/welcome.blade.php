@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="{{ asset('css/donation.css') }}">
     <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
     <link rel="stylesheet" href="{{ asset('css/blog.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/project-modal.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/alerts.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -49,9 +51,10 @@
     <script src="{{ asset('js/navigation.js') }}"></script>
     <script src="{{ asset('js/testimonials.js') }}"></script>
     <script src="{{ asset('js/blog.js') }}"></script>
+    <script src="{{ asset('js/projects.js') }}"></script>
+    <script src="{{ asset('js/contact.js') }}"></script>
     <script src="{{ asset('js/animations.js') }}"></script>
     <script src="{{ asset('js/forms.js') }}"></script>
-    <script src="{{ asset('js/blog.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
