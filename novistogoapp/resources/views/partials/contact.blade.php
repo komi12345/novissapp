@@ -38,27 +38,42 @@
                 </div>
             </div>
             <div class="contact-form">
-                <form id="contactForm" action="{{ route('contact.send') }}" method="POST">
-                    @csrf
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Votre email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Sujet">
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Votre message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
-                </form>
-                @if(session('success'))
-                <div class="alert alert-success">
-                    {{ session('success') }}
-                </div>
-                @endif
+                <h3>Discutez avec nous sur WhatsApp</h3>
+                <p>Cliquez sur le bouton ci-dessous pour nous contacter directement via WhatsApp</p>
+                <a href="https://wa.me/22897447627" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Nous contacter sur WhatsApp
+                </a>
+                <style>
+                    .contact-form {
+                        text-align: center;
+                        padding: 30px;
+                        background-color: #f9f9f9;
+                        border-radius: 10px;
+                        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    }
+                    .btn-whatsapp {
+                        background-color: #25D366;
+                        color: white;
+                        padding: 15px 30px;
+                        border-radius: 50px;
+                        font-size: 18px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 20px;
+                        transition: all 0.3s ease;
+                        text-decoration: none;
+                    }
+                    .btn-whatsapp:hover {
+                        background-color: #128C7E;
+                        transform: translateY(-3px);
+                        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                    }
+                    .btn-whatsapp i {
+                        margin-right: 10px;
+                        font-size: 24px;
+                    }
+                </style>
             </div>
         </div>
     </div>
